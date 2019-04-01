@@ -9,11 +9,11 @@
 import Foundation
 import FrameworkTest
 
+/// A simple model.
 struct SomeModel {
     var nb: Int
 
 }
 
-class ClassImplementingGenericChildClass: GenericClassChild<SomeModel> {
-
-}
+/// Here we implement the GenericClassChild of the FrameworkTest.
+class ClassImplementingGenericChildClass: GenericClassChild<SomeModel> { }
